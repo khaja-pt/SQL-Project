@@ -2,9 +2,7 @@
 
 # I have made a SQL project where some basic questions were answered. 
 
-
-
-Note: please do not use any functions which are not taught in the class. you need to solve the questions only with the concepts that have been discussed so far.
+I loaded the superstore dataset and imported on MS-SQL(SSMS) and the below queries were resolved. 
 
 1- write a sql to get all the orders where customers name has "a" as second character and "d" as fourth character (58 rows)
 select * from Orders where customer_name like '_a%' and customer_name like '___d%'
